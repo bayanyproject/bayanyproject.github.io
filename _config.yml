@@ -12,8 +12,8 @@ description: توثيق تكنولوجي ، قصص وبيانات
 # لإستخدام صورة هويتك في GitHub ضع https://github.com/<اسم_المستخدم>.png في المتغير، مثلا لهويتي الشخصية أستخدم:
 # avatar: https://github.com/a3ammar.png
 # ولإخفاء الصورة نهائيًا احذف الرابط من المتغير
-avatar: https://raw.githubusercontent.com/yOOs-dz/bayany/main/images/logo_Rtips.png
-banner: https://raw.githubusercontent.com/yOOs-dz/bayany/main/images/banner_v1.jpg
+avatar: https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/main/images/logo_Rtips.png
+banner: https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/main/images/banner_v1.jpg
 
 
 
@@ -28,7 +28,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: yOOs-dz/bayany
+  github: bayanyproject/bayanyproject.github.io/
   instagram:
   linkedin:
   pinterest:
@@ -51,7 +51,7 @@ google_analytics:
 url:
 
 # إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
-baseurl: "/bayany"
+baseurl: "/bayanyproject.github.io"
 
 
 #

@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Bayany initiative! All your contr
 
 ### How to Contribute
 #### Website Improvements
-* **Suggesting Ideas:** Join the discussion on [https://github.com/yOOs-dz/bayany/discussions/1] to share your ideas for new features or improvements.
+* **Suggesting Ideas:** Join the discussion on [https://github.com/bayanyproject/bayanyproject.github.io/discussions/1] to share your ideas for new features or improvements.
 * **Creating Pull Requests:**
    1. Fork the repository.
    2. Create a new branch for your feature or bug fix.
@@ -25,7 +25,7 @@ Thank you for your interest in contributing to Bayany initiative! All your contr
 * **Markdown:** Use standard Markdown syntax for writing documentation.
 
 ### Getting Started
-* **Cloning the repository:** `git clone https://github.com/yOOs-dz/Bayany.git`
+* **Cloning the repository:** `git clone https://github.com/bayanyproject/bayanyproject.github.io.git`
 * **Setting up the development environment using Git:** For those who have not used Git yet, please, find below this explanatory video by GitHub [https://www.youtube.com/watch?v=r8jQ9hVA2qs]
 
 
@@ -37,7 +37,7 @@ Thank you for your interest in contributing to Bayany initiative! All your contr
 
 ### كيفية المساهمة
 #### تحسين الموقع
-* **اقتراح أفكار:** انضم إلى النقاش على [https://github.com/yOOs-dz/bayany/discussions/1] لمشاركة أفكارك حول ميزات أو تحسينات جديدة.
+* **اقتراح أفكار:** انضم إلى النقاش على [https://github.com/bayanyproject/bayanyproject.github.io/discussions/1] لمشاركة أفكارك حول ميزات أو تحسينات جديدة.
 * **إنشاء طلبات سحب:**
    1. قم بـ fork للمستودع.
    2. أنشئ فرعًا جديدًا لميزتك أو تصحيح الخطأ الخاص بك.
