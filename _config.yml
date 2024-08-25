@@ -51,7 +51,7 @@ google_analytics:
 url:
 
 # إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
-baseurl: "/bayanyproject.github.io"
+baseurl: ""
 
 
 #
