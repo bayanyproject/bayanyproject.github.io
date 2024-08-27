@@ -20,6 +20,12 @@ html {
   font-size: 100%;
   height: 100%;
 }
+//Added 27-08-2028
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
 
 body {
   display: flex;
@@ -108,6 +114,20 @@ ul ul, ol ul {
 em, i {
   font-style: italic;
 }
+
+//Added 27-08-2024
+
+.ltr ul, .ltr ol {
+  padding-left: 20px; /* Adjust padding or margin */
+  padding-right: 0; /* Remove any unnecessary right padding */
+}
+
+.ltr a {
+  direction: ltr;
+  /* Other link-specific styles */
+}
+
+//End added!
 
 strong, b {
   font-weight: bold;
