@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Bayany project
-description:Welcome to **Bayany**, a project aimed at documenting and introducing free and open-source software dedicated to data analysis. This site aims to provide a comprehensive platform that brings together basic information, explanatory tutorials, practical applications, and specialized indexes in the field of data analysis.
+description:Welcome to Bayany, a project aimed at documenting and introducing free and open-source software dedicated to data analysis. This site aims to provide a comprehensive platform that brings together basic information, explanatory tutorials, practical applications, and specialized indexes in the field of data analysis.
 img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
 ---
 <div dir="ltr">

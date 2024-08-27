@@ -3,6 +3,29 @@ layout: default
 ---
 
 <div class="posts">
+  {% for post in site.posts %}
+<!--  <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
+  </div> KEEP THIS FOR THE MAIN SITE ONLY. -->
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<!--      <div class="entry">
+        {{ post.content }} UNDISPLAYED IN ORDER TO PUT A CODE OF  {{post.excrept}} WITH THE EXPRESSION: أكمل القراءة-->
+      <!--
+      <div class="entry">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.content }}-->
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">اكمل القراءة</a>
+      
+    </article>
+  {% endfor %}
+</div>
+
+
+<!-- OLD SETTING1 - 27-08-2024
+<div class="posts">
   {% for post in site.posts reversed %}
   <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
   </div>
@@ -14,8 +37,8 @@ layout: default
     </article>
   {% endfor %}
 </div>
-
-<!-- OLD SETTINGS
+-->
+<!-- OLD SETTINGS2
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
