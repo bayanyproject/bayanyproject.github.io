@@ -4,8 +4,8 @@ title: Project Bayany - مشروع بياني
 description: مرحبًا بكم في **بياني**، مشروع يهدف إلى توثيق وتعريف البرامج المعلوماتية الحرة والمفتوحة المصدر التي تختص بتحليل المعطيات. يهدف هذا الموقع إلى توفير منصة شاملة تجمع بين المعلومات الأساسية، والدروس التوضيحية، والتطبيقات العملية، والفهارس المتخصصة في مجال تحليل البيانات 
 img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
 ---
-<div dir="ltr">
-![Bayany](/images/banner_v1.jpg "Bayany project")  Welcome to **Bayany**, a project aimed at documenting and introducing free and open-source software dedicated to data analysis. This site aims to provide a comprehensive platform that brings together basic information, explanatory tutorials, practical applications, and specialized indexes in the field of data analysis.
+
+Welcome to **Bayany**, a project aimed at documenting and introducing free and open-source software dedicated to data analysis. This site aims to provide a comprehensive platform that brings together basic information, explanatory tutorials, practical applications, and specialized indexes in the field of data analysis.
 
 Through **Bayany**, we strive to facilitate access to and exchange of technical knowledge among those interested in data analysis, whether they are beginners seeking educational resources or professionals looking to deepen their knowledge and expand their skills.
 
@@ -44,7 +44,7 @@ This project is built using the [Arabic Jekyll Template](https://github.com/a3am
 The Arabic Jekyll Template is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
 
 We are grateful for the work of the original creator, which served as a foundation for this project.
-</div>
+
 
 ![بياني](/images/banner_v1.jpg "مشروع بياني") مرحبًا بكم في **بياني**، مشروع يهدف إلى توثيق وتعريف البرامج المعلوماتية الحرة والمفتوحة المصدر التي تختص بتحليل المعطيات. يهدف هذا الموقع إلى توفير منصة شاملة تجمع بين المعلومات الأساسية، والدروس التوضيحية، والتطبيقات العملية، والفهارس المتخصصة في مجال تحليل البيانات.
 

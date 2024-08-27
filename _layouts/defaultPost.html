@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <script src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
+
+
+    <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
+  </head>
+
+  <body lang="ar">
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          {% if site.avatar %}
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          {% endif %}
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+ <!-- 
+ added menu just below. : see for more developments : https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp      
+         -->
+ 
+          
+          <nav>
+            <a href="{{ site.baseurl }}/blog">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
+            <a href="https://yOOs-dz.github.io/bayanyblog">صفحة المدونة</a>            
+            <a href="https://github.com/bayanyproject/bayanyproject.github.io">مصدر Github</a>
+
+          </nav>
+        </header>
+        
+            <!-- <img src="https://raw.githubusercontent.com/yOOs-dz/Rtips/gh-pages-test/images/banner_v1.jpg" > Return to theme defaults -->
+            
+      </div>
+    </div>
+    
+    <img src="{{site.banner}}" width='1200' height= auto/>
+<!--    
+    <div>
+      <h1><a href="{{site.baseurl}}/blog">مشروع بياني</a></h1>
+        <p href="{{site.baseurl}}/blog">{{content}}</p>
+    </div>
+  
+    <div style=" max-width: 1000px; margin: 0 auto; padding: 20px; direction: rtl; line-height: 1.6;">
+
+      <h1>مشروع بياني</h1>
+
+      <p>مرحبًا بكم في <strong>بياني</strong>، مشروع يهدف إلى توثيق وتعريف البرامج المعلوماتية الحرة والمفتوحة المصدر التي تختص بتحليل المعطيات. يهدف هذا الموقع إلى توفير منصة شاملة تجمع بين المعلومات الأساسية، والدروس التوضيحية، والتطبيقات العملية، والفهارس المتخصصة في مجال تحليل البيانات.</p>
+
+      <p>من خلال <strong>بياني</strong>، نسعى إلى تسهيل الوصول إلى المعرفة التقنية وتبادلها بين المهتمين بمجال تحليل المعطيات، سواء كانوا مبتدئين يبحثون عن موارد تعليمية أو محترفين يرغبون في تعميق معرفتهم وتوسيع مهاراتهم.</p>
+
+      <p>على هذا <a href="https://yoos-dz.github.io/bayany">الموقع</a> ستجدون:</p>
+
+      <ul>
+        <li><strong>معلومات قاعدية:</strong> نظرة عامة وشروحات حول البرامج والأدوات المستخدمة في تحليل البيانات.</li>
+        <li><strong>دروس:</strong> مقالات ودروس تعليمية حول كيفية استخدام هذه الأدوات بطريقة فعالة.</li>
+        <li><strong>تطبيقات عملية:</strong> أمثلة حية وتطبيقات على استخدام الأدوات في مشاريع واقعية.</li>
+        <li><strong>فهارس:</strong> قوائم مرجعية وروابط لمصادر إضافية تعزز الفهم وتسهل البحث.</li>
+      </ul>
+
+      <p>نأمل أن يكون هذا المشروع مصدرًا مفيدًا لكل من يرغب في استكشاف عالم تحليل البيانات باستخدام البرمجيات المفتوحة المصدر. نتطلع دائمًا إلى استقبال مساهماتكم واقتراحاتكم لتحسين وتطوير <strong>بياني</strong>.</p>
+      
+    </div>
+ -->   
+    <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
