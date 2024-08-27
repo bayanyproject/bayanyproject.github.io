@@ -27,7 +27,7 @@ We welcome contributions to the Bayany project and appreciate your interest in i
 
 There are several ways you can contribute to the Bayany project:
 
-- **Suggesting Ideas:** If you have ideas for new features or improvements, you can share them in our discussion forum. [Join the discussion here](https://github.com/yOOs-dz/bayany/discussions/1).
+- **Suggesting Ideas:** If you have ideas for new features or improvements, you can share them in our discussion forum. [Join the discussion here](https://github.com/bayanyproject/bayanyproject.github.io/discussions/1).
 - **Creating Pull Requests:** If you’d like to contribute to the [repository](https://github.com/bayanyproject/bayanyproject.github.io/) or even to the [website](https://yoos-dz.github.io/bayany) codes, please follow the general steps outlined in our [CONTRIBUTING.md](https://github.com/bayanyproject/bayanyproject.github.io/blob/main/CONTRIBUTING.md) file.
 - **Content Contributions:** Help us enhance our content by creating new tutorials, expanding existing ones, or improving the documentation.
 
