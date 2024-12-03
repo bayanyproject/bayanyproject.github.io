@@ -1,8 +1,9 @@
 ---
+
 layout: post
 title: مدخل إلى R و لمحة تاريخية
 description: منصة آر هي بيئة برمجة إحصائية مفتوحة المصدر تم تطويرها لأغراض التحليل الإحصائي، التمثيل البياني، وأتمتة المهام البرمجية. تعود أصولها إلى مشروع برمجي أُطلق في أوائل التسعينيات، مستلهماً من لغة آس الإحصائية التي طورتها مختبرات بل في سبعينيات القرن الماضي.
-img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
+img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/R_logo.png" width='100' height= auto/>
 ---
 
 # منصة R: النشأة والمزايا والاستخدامات الحديثة
@@ -50,6 +51,14 @@ img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/i
 
 - تتميز المنصة أيضًا بقدرتها على التكامل مع لغات وتقنيات أخرى مثل:  
   **Python**، **SQL**، و**Big Data**.
+  
+  
+## المراجع
+
+### مراجع تاريخية
+1. Ihaka, R., & Gentleman, R. (1996). *R: A Language for Data Analysis and Graphics.* Journal of Computational and Graphical Statistics.  
+2. R Core Team. (1995). *The R Project for Statistical Computing.* Available at: [https://www.r-project.org/](https://www.r-project.org/)
+
 
 ---
 
