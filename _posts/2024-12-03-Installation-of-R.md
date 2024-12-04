@@ -1,7 +1,7 @@
 ---
 layout: post
 title: تنصيب منصة آر
-category: "learn R"
+category: "learn r"
 description: تُتبر منصة آر من أقوى الأدوات البرمجية لتحليل البيانات وإجراء العمليات الإحصائية، وهي متوفرة للتنصيب بسهولة على معظم أنظمة التشغيل. في هذا الملف سنوضح كيفية تنصيب آر على ويندوز، أجهزة الماك، وكذا نظام اللينكس، بالإضافة إلى الخيارات السحابية.
 img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---

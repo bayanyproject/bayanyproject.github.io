@@ -1,7 +1,7 @@
 ---
 layout: post
 title: مدخل إلى منصة آر
-category: "learn R"
+category: "learn r"
 description: منصة آر هي بيئة برمجة إحصائية مفتوحة المصدر تم تطويرها لأغراض التحليل الإحصائي، التمثيل البياني، وأتمتة المهام البرمجية. تعود أصولها إلى مشروع برمجي أُطلق في أوائل التسعينيات مستلهما من لغة آس الإحصائية التي طورتها مختبرات بل في سبعينيات القرن الماضي
 img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---
