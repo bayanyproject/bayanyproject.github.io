@@ -3,7 +3,7 @@ layout: learnrdefault
 ---
 <div class="posts">
     {% for post in site.posts %}
-        {% if post.categories contains "learn r" %}
+        {% if post.category contains "learn r" %}
         <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
         </div> 
         <article class="post">
