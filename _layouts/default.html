@@ -50,7 +50,16 @@
             <a href="{{ site.baseurl }}/blog" style="color: blue; font-weight: bold;">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
             <a href="https://yOOs-dz.github.io/bayanyblog">صفحة المدونة</a>            
             <a href="https://github.com/bayanyproject/bayanyproject.github.io">مصدر Github</a>
-
+            <!-- Categories Menu -->
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; gap: 10px;">
+              {% for category in site.categories %}
+              <li style="display: inline; margin-right: 10px;">
+                <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}" style="color: #FF5733;">
+                  {{ category[0] }}
+                </a>
+              </li>
+                {% endfor %}
+            </ul>
           </nav>
         </header>
         

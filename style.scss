@@ -308,6 +308,18 @@ nav {
   }
 }
 
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #FF5733;
+}
+
 
 .not-found {
   img { width: 400px; }
