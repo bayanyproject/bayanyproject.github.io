@@ -9,8 +9,8 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <script src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
@@ -18,7 +18,7 @@
 
     <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
   </head>
-  
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R12FNYYHYE"></script>
   <script>
@@ -47,10 +47,10 @@
  
           
           <nav>
-            <a href="{{ site.baseurl }}/learnr">تعلم آر</a>
-            <a href="{{ site.baseurl }}/blog" style="color: blue; font-weight: bold;">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
+            <a href="{{ site.baseurl }}/blog">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
             <a href="https://yOOs-dz.github.io/bayanyblog">صفحة المدونة</a>            
             <a href="https://github.com/bayanyproject/bayanyproject.github.io">مصدر Github</a>
+
           </nav>
         </header>
         
@@ -60,16 +60,21 @@
     </div>
     
     <img src="{{site.banner}}" width='1200' height= auto/>
-
+<!--    
+    <div>
+      <h1><a href="{{site.baseurl}}/blog">مشروع بياني</a></h1>
+        <p href="{{site.baseurl}}/blog">{{content}}</p>
+    </div>
+  
     <div style=" max-width: 1000px; margin: 0 auto; padding: 20px; direction: rtl; line-height: 1.6;">
 
-      <h2 style="color: blue;">مستجدات</h2>
-<!--
+      <h1>مشروع بياني</h1>
+
       <p>مرحبًا بكم في <strong>بياني</strong>، مشروع يهدف إلى توثيق وتعريف البرامج المعلوماتية الحرة والمفتوحة المصدر التي تختص بتحليل المعطيات. يهدف هذا الموقع إلى توفير منصة شاملة تجمع بين المعلومات الأساسية، والدروس التوضيحية، والتطبيقات العملية، والفهارس المتخصصة في مجال تحليل البيانات.</p>
 
       <p>من خلال <strong>بياني</strong>، نسعى إلى تسهيل الوصول إلى المعرفة التقنية وتبادلها بين المهتمين بمجال تحليل المعطيات، سواء كانوا مبتدئين يبحثون عن موارد تعليمية أو محترفين يرغبون في تعميق معرفتهم وتوسيع مهاراتهم.</p>
 
-      <p>على هذا <a href="https://bayanyproject.github.io//">الموقع</a> ستجدون:</p>
+      <p>على هذا <a href="https://yoos-dz.github.io/bayany">الموقع</a> ستجدون:</p>
 
       <ul>
         <li><strong>معلومات قاعدية:</strong> نظرة عامة وشروحات حول البرامج والأدوات المستخدمة في تحليل البيانات.</li>
@@ -81,10 +86,23 @@
       <p>نأمل أن يكون هذا المشروع مصدرًا مفيدًا لكل من يرغب في استكشاف عالم تحليل البيانات باستخدام البرمجيات المفتوحة المصدر. نتطلع دائمًا إلى استقبال مساهماتكم واقتراحاتكم لتحسين وتطوير <strong>بياني</strong>.</p>
       
     </div>
-  -->  
+ -->   
     <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
-      {{ content }}
+      <div class="posts">
+        {% for post in site.posts %}
+          {% if post.categories contains "learn R" %}
+            <article class="post">
+              <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+              <div class="entry">
+                {{ post.excerpt }}
+              </div>
+              <a href="{{ post.url }}" class="read-more">اكمل القراءة</a>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
+
 
     <div class="wrapper-footer">
       <div class="container">
