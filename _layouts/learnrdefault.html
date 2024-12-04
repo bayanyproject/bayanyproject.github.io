@@ -47,6 +47,7 @@
  
           
           <nav>
+            <a href="{{ site.baseurl }}/learnr">تعلم آر</a>
             <a href="{{ site.baseurl }}/blog">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
             <a href="https://yOOs-dz.github.io/bayanyblog">صفحة المدونة</a>            
             <a href="https://github.com/bayanyproject/bayanyproject.github.io">مصدر Github</a>
@@ -87,21 +88,11 @@
       
     </div>
  -->   
+
     <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
-      <div class="posts">
-        {% for post in site.posts %}
-          {% if post.categories contains "learn R" %}
-            <article class="post">
-              <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-              <div class="entry">
-                {{ post.excerpt }}
-              </div>
-              <a href="{{ post.url }}" class="read-more">اكمل القراءة</a>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {{ content }}
     </div>
+
 
 
     <div class="wrapper-footer">

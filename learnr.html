@@ -1,19 +1,35 @@
 ---
 layout: learnrdefault
-permalink: /learnr/
-title: تعلم آر
 ---
 <div class="posts">
-{% for post in site.posts %}
-    {% if post.categories contains "learn R" %}
-    <article class="post">
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <div class="entry">
-        {{ post.excerpt }}
-        </div>
-        <a href="{{ post.url }}" class="read-more">اكمل القراءة</a>
-    </article>
-    {% endif %}
-{% endfor %}
+    {% for post in site.posts %}
+        {% if post.categories contains "learn R" %}
+        <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
+        </div> 
+        <article class="post">
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <div class="entry">
+                {{ post.excerpt }}
+            </div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">اكمل القراءة</a>
+        </article>
+        {% endif %}
+    {% endfor %}
 </div>
 
+<!--
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
+  </div> 
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">اكمل القراءة</a>
+    </article>
+  {% endfor %}
+</div>
+
+-->
