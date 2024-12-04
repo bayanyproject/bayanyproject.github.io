@@ -11,7 +11,7 @@ img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.git
 
 أغلب خيارات التنصيب موجودة على [الموقع الرسمي لتحميل برنامج آر](https://cran.r-project.org) (https://cran.r-project.org) و المسمى كران [CRAN](https://cran.r-project.org) والتي هي أولى حروف كلمات The Comprehensive R Archive Network أو الشبكة الشاملة لأرشيف آر و التي تحوي شبكة موارد توزيع البرنامج و أحزمته المختلفة على الانترنت أو ftp عبر العالم. يتم التنصيب عادة بعد اختيار أحد مصادر مستودعات البرنامج و التي ينصح أن تكون الأقرب جغرافيا.
 
-![الموقع الرسمي لتحميل برنامج آر](images/R/rinstall1.png "مشروع بياني")
+![الموقع الرسمي لتحميل برنامج آر](/images/R/rinstall1.png "الموقع الرسمي لتحميل برنامج آر")
 
 ---
 
