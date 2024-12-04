@@ -3,8 +3,17 @@ layout: learnrdefault
 permalink: /learnr/
 title: تعلم آر
 ---
-
-    <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
-      {{ content }}
-    </div>
+<div class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains "learn R" %}
+    <article class="post">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="entry">
+        {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url }}" class="read-more">اكمل القراءة</a>
+    </article>
+    {% endif %}
+{% endfor %}
+</div>
 
