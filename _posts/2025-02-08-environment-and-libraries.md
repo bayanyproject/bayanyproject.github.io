@@ -3,7 +3,7 @@ layout: post
 title: بيئة العمل على آر
 category: "learn r"
 description: تقديم لبيئة العمل العامة على آر تحتوي على منظومة الأوامر و كذا المكتبات ، تنصيبها و تشغيلها
-img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
+img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---
 بغرض التمكن من العمل على منصة آر ، نحتاج لمعرفة كيف يشتغل و كيف ينفذ مختلف الأوامر. كما سلف ، فإن المنصة هي بيئة برمجية تعمل بخط الأوامر و لا تمتلك مسبقا بيئة غرافيكية. لذلك ، يستدعي العمل أولا على كتابة أوامر يفهمها البرنامج من أجل إنجاز مختلف الوظائف الخاصة به.
 
