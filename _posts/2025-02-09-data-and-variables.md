@@ -5,6 +5,7 @@ category: "learn r"
 description: تقديم لبيئة العمل العامة على آر تحتوي على منظومة الأوامر و كذا المكتبات ، تنصيبها و تشغيلها
 img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---
+
 بعد التمكن من تشغيل آر و كتابة بعض الأوامر القاعدية ، [أنظر المقال السابق]("/posts/environment-and-libraries") ، سنهتم هنا ببعض العمليات الأولى على آر و كيفية إدراج المتغيرات.
 
 
