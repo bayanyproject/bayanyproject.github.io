@@ -126,6 +126,21 @@ blockquote {
   color: $gray;
 }
 
+blockquote {
+  margin: 1em 0.5em; /* Less margin for a slimmer block */
+  border-right: 1px solid $gray; /* Thinner border */
+  padding: 0.05em 0.8em; /* Less padding */
+  font-size: 0.85em; /* Smaller text */
+  color: $gray;
+}
+
+//blockquote {
+//  margin: 1.8em .8em;
+//  border-right: 2px solid $gray;
+//  padding: 0.1em 1em;
+//  color: $gray;
+//}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
