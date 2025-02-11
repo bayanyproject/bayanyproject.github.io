@@ -26,25 +26,25 @@
 
 .highlight {
   background-color: #efefef;
-  padding: 3px 3px 3px 5px;
+  padding: 0px 0px 0px 0px;
   border: 1px solid #ddd;
   -moz-box-shadow: 1px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: 1px 1px rgba(0,0,0,0.1);
   box-shadow: 1px 1px rgba(0,0,0,0.1);
-  margin: 20px 0 7px 0;
+  margin: 7px 0 7px 0;
   overflow: scroll;
 }
 
 code {
   font-family: $monospace-font-family;
   font-weight: 200;
-  font-size: 10px;
+  font-size: 11px;
   unicode-bidi: embed;
 
   &.highlighter-rouge {
     // specific to inline
     color: $red;
-    padding: 0 2px;
+    padding: 0 1px;
   }
 }
 
