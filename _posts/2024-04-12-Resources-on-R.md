@@ -3,7 +3,7 @@ layout: post
 title: معلومات و مصادر للتوثيق و التعليم حول آر
 category: "learn r"
 description: هنا بعض المعلومات الأساسية حول المكتبة على آر
-img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100" height= auto/>
+img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---
 
 *منصة R** أو آر هي بيئة برمجة إحصائية مفتوحة المصدر تم تطويرها لأغراض التحليل الإحصائي، التمثيل البياني، وأتمتة المهام البرمجية. ستجد في المقالات السابقة بعض [المعلومات القاعدية عن المنصة آر](/Introduction-to-R) و عن كيفية [تنصيبها على أغلب أنظمة تشغيل الحاسوب](/Installation-of-R).
