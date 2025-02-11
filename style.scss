@@ -121,20 +121,11 @@ img {
 
 
 blockquote {
-  margin: 0.5em 0.3em; /* Even less margin for a compact look */
-  border-right: 0.5px solid $gray; /* Very thin border */
-  padding: 0.02em 0.5em; /* Minimal padding */
-  font-size: 0.75em; /* Smaller text */
-  color: $gray;
+ margin: 1.8em .8em;
+ border-right: 2px solid $gray;
+ padding: 0.1em 1em;
+ color: $gray;
 }
-
-
-//blockquote {
-//  margin: 1.8em .8em;
-//  border-right: 2px solid $gray;
-//  padding: 0.1em 1em;
-//  color: $gray;
-//}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
