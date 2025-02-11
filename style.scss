@@ -121,12 +121,13 @@ img {
 
 
 blockquote {
-  margin: 1em 0.5em; /* Less margin for a slimmer block */
-  border-right: 1px solid $gray; /* Thinner border */
-  padding: 0.05em 0.8em; /* Less padding */
-  font-size: 0.85em; /* Smaller text */
+  margin: 0.5em 0.3em; /* Even less margin for a compact look */
+  border-right: 0.5px solid $gray; /* Very thin border */
+  padding: 0.02em 0.5em; /* Minimal padding */
+  font-size: 0.75em; /* Smaller text */
   color: $gray;
 }
+
 
 //blockquote {
 //  margin: 1.8em .8em;
