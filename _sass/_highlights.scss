@@ -1,20 +1,44 @@
 .highlight, code { direction: ltr; }
 
+// .highlight {
+//   background-color: #efefef;
+//   padding: 7px 7px 7px 10px;
+//   border: 1px solid #ddd;
+//   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
+//   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
+//   box-shadow: 3px 3px rgba(0,0,0,0.1);
+//   margin: 20px 0 20px 0;
+//   overflow: scroll;
+// }
+// 
+// code {
+//   font-family: $monospace-font-family;
+//   font-weight: 400;
+//   font-size: 13px;
+//   unicode-bidi: embed;
+// 
+//   &.highlighter-rouge {
+//     // specific to inline
+//     color: $red;
+//     padding: 0 2px;
+//   }
+// }
+
 .highlight {
   background-color: #efefef;
-  padding: 7px 7px 7px 10px;
+  padding: 3px 3px 3px 5px;
   border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
+  -moz-box-shadow: 1px 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px rgba(0,0,0,0.1);
+  margin: 20px 0 7px 0;
   overflow: scroll;
 }
 
 code {
   font-family: $monospace-font-family;
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 200;
+  font-size: 10px;
   unicode-bidi: embed;
 
   &.highlighter-rouge {
@@ -23,6 +47,7 @@ code {
     padding: 0 2px;
   }
 }
+
 
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
