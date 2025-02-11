@@ -37,14 +37,14 @@
 
 code {
   font-family: $monospace-font-family;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 11px;
   unicode-bidi: embed;
 
   &.highlighter-rouge {
     // specific to inline
     color: $red;
-    padding: 0 1px;
+    padding: 0 2px;
   }
 }
 
