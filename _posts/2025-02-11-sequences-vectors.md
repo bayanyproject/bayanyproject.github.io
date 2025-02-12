@@ -255,7 +255,6 @@ grades[5]
 grades_subset1 <- grades[6:10]
 grades_subset1 
 #[1] 10.25 11.85  4.84 12.57  6.97
-
 ```
 
 
@@ -267,7 +266,6 @@ grades_subset1
 grades_subset2 <- grades[c(2,4,6)]
 grades_subset2 
 #[1] 12.97 11.35 10.25
-
 ```
 
 #### الحصول على معطيات إحصائية من المتجه
@@ -282,7 +280,6 @@ order(grades,decreasing = T) # decreasing = TRUE
 
 order(grades) # الترتيب الأصلي تصاعدي ، أي decreasing = FALSE
 # [1] 12  8 10  6 11  5  4 15 13  7 14  9  2  3  1
-
 ```
 2. **عكس اتجاه المتجه** عبر تعليمة ```rev(vector)``` و هذه التعليمة تعكس ترتيب قيم المتجه الأصلي.
 
