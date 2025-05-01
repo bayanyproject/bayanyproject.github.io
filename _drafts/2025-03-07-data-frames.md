@@ -1,9 +1,11 @@
 ---
+title: "أطر البيانات (DataFrames)"
 layout: post
-title: أطر البيانات (DataFrames)
-category: "learn r"
-description: تقديم لبيئة العمل العامة على آر تحتوي على منظومة الأوامر و كذا المكتبات ، تنصيبها و تشغيلها
-img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
+category: learn r
+description: تقديم لبيئة العمل العامة على آر تحتوي على منظومة الأوامر و كذا المكتبات
+  ، تنصيبها و تشغيلها
+img: "<img src=\"https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png\"
+  width='100' height= auto/>"
 ---
 في هذا المقال سنتعرف على إحدى أهم بنى المعلومات استعمالا و أهمية في آر و هي **أطر المعلومات.** و التي هي أكثر تركيبا من البنى السابقة كما أنها تعتبر عماد التحليل البياني. 
 
