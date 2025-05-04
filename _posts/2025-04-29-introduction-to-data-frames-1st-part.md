@@ -3,7 +3,7 @@ layout: post
 title: أطر البيانات (DataFrames) - مدخل
 category: "learn r"
 description: مدخل لأطر البيانات على منصة أر. إنشاؤها ، قراءتها ، تصديرها
-img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayany.github.io/main/images/logo_Rtips.png" width='100' height= auto/>
+img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
 ---
 
 في هذا المقال و مجموعة من المقالات التي بعده ، سنتعرف على إحدى أهم بنى المعلومات استعمالا و أهمية في آر و هي **أطر المعلومات**. هذه البنية المعلوماتية أكثر تركيبا من البنى السابقة كما أنها تعتبر عماد التحليل البياني.
