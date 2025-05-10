@@ -30,42 +30,38 @@
   </script>
 
   <body lang="ar">
-   <header class="site-header" style="background: url('{{site.banner}}') no-repeat center; padding: 2rem 0;">
-      <div class="wrapper-masthead">
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          {% if site.avatar %}
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          {% endif %}
 
-
-        <div class="container">
-          <header class="masthead clearfix">
-            {% if site.avatar %}
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-            {% endif %}
-
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
-            </div>
-  <!--
-  added menu just below. : see for more developments : https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
-          -->
-
-
-            <nav>
-              <a href="{{ site.baseurl }}/learnr">تعلم آر</a>
-              <a href="{{ site.baseurl }}/blog">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
-              <a href="https://bayanyblog.github.io">المدونة</a>
-            </nav>
-          </header>
-     <!-- Your menu/navigation code here -->
-
-              <!-- <img src="https://raw.githubusercontent.com/yOOs-dz/Rtips/gh-pages-test/images/banner_v1.jpg" > Return to theme defaults -->
-
-        </div>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+ <!-- 
+ added menu just below. : see for more developments : https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp      
+         -->
+ 
+          
+          <nav>
+            <a href="{{ site.baseurl }}/learnr">تعلم آر</a>
+            <a href="{{ site.baseurl }}/blog">المشروع</a> <!-- تحويله إلى صفحة تجتوي على أهم المحاور الرئيسية في وقت أول ثم تحويله إلى قائمة عمودية بعد ذلك -->
+            <a href="https://bayanyblog.github.io">المدونة</a>            
+          </nav>
+        </header>
+        
+            <!-- <img src="https://raw.githubusercontent.com/yOOs-dz/Rtips/gh-pages-test/images/banner_v1.jpg" > Return to theme defaults -->
+            
       </div>
-   </header>
-<!--    <header>
+    </div>
+    
+    <header>
       <img src="{{site.banner}}" alt="Bayany Project Banner" width=100% height= auto/>
     </header>
-    <div style=" max-width: 1000px; margin: 0 auto; padding: 20px; direction: rtl; line-height: 1.6;">  -->
+    <div style=" max-width: 1000px; margin: 0 auto; padding: 20px; direction: rtl; line-height: 1.6;">
 
 
 <!--

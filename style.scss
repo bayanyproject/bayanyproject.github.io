@@ -156,26 +156,6 @@ blockquote {
   margin-bottom: 50px;
 }
 
-/* Header/Banner Styling */
-.site-header {
-  background-image: url('/assets/images/banner.jpg');
-  background-size: contain;    /* Prevents cropping (shows full image) */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f5f5;   /* Fallback color if image fails to load */
-  width: 100%;
-  min-height: 300px;          /* Adjust based on your banner's aspect ratio */
-  padding: 20px 0;            /* Adds internal spacing */
-}
-
-/* Override for mobile devices */
-@media (max-width: 768px) {
-  .site-header {
-    background-size: contain;  /* Ensures full image is visible */
-    min-height: 200px;         /* Reduce height on smaller screens */
-  }
-}
-
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid DarkOrange ;
