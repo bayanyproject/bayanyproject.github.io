@@ -1,6 +1,6 @@
 ---
 layout: post
-title: أطر البيانات (DataFrames) - مدخل
+title: مدخل إلى أطر البيانات ، المقال الأول (DataFrames)
 category: "learn r"
 description: مدخل لأطر البيانات على منصة أر. إنشاؤها ، قراءتها ، تصديرها
 img: <img src="https://raw.githubusercontent.com/bayanyproject/bayanyproject.github.io/refs/heads/main/images/R_logo.png" width='100' height= auto/>
